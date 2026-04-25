@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "SGR 1935+2154 FRB 200428 Anomaly Pipeline"
+abstract: >-
+  An open-source, end-to-end pipeline for statistical analysis of X-ray bursts
+  from magnetar SGR 1935+2154 during the April 2020 burst storm. The pipeline
+  detects bursts via Bayesian Blocks, fits energy distributions with MLE,
+  and tests whether the FRB 200428 X-ray counterpart is statistically anomalous
+  relative to the NICER-detected burst population using both rank-based and
+  model-based anomaly tests.
+authors:
+  - family-names: "Raju"
+    given-names: "Phanendra"
+    orcid: ""
+version: 1.0.0
+date-released: 2026-04-13
+license: MIT
+repository-code: "https://github.com/phanendra09/magnetar-frb-analysis"
+keywords:
+  - magnetars
+  - fast radio bursts
+  - SGR 1935+2154
+  - FRB 200428
+  - X-ray bursts
+  - Bayesian Blocks
+  - self-organised criticality
+  - NICER
+references:
+  - type: article
+    authors:
+      - family-names: "Li"
+        given-names: "C. K."
+    title: "HXMT identification of a non-thermal X-ray burst from SGR J1935+2154"
+    journal: "Nature Astronomy"
+    volume: 5
+    pages: "378-395"
+    year: 2021
+    doi: "10.1038/s41550-021-01302-6"
+  - type: article
+    authors:
+      - family-names: "Younes"
+        given-names: "G."
+    title: "A possible polar origin for the FRB associated with a Galactic magnetar"
+    journal: "The Astrophysical Journal Letters"
+    volume: 904
+    pages: "L21"
+    year: 2020
+    doi: "10.3847/2041-8213/abc94c"

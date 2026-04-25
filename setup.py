@@ -1,0 +1,30 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="magnetar-flare-analysis",
+    version="1.0.0",
+    description="SGR 1935+2154 FRB anomaly analysis pipeline",
+    author="Phanendra",
+    python_requires=">=3.9",
+    packages=find_packages(),
+    install_requires=[
+        "numpy>=1.21",
+        "pandas>=1.4",
+        "scipy>=1.7",
+        "astropy>=5.0",
+        "astroquery>=0.4.6",
+        "matplotlib>=3.5",
+        "seaborn>=0.12",
+        "powerlaw>=1.5",
+        "emcee>=3.1",
+        "corner>=2.2",
+        "reportlab>=4.0",
+        "tqdm>=4.64",
+    ],
+    entry_points={
+        "console_scripts": [
+            "magnetar-analysis=run_analysis:main",
+            "magnetar-build-report=build_report:main",
+        ],
+    },
+)

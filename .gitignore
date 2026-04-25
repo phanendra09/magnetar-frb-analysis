@@ -1,0 +1,50 @@
+# ============================================
+# SGR 1935+2154 Magnetar FRB Analysis
+# ============================================
+
+# Data - FITS files are large (download from HEASARC)
+data/raw/*.fits
+data/raw/*.evt
+data/raw/*.evt.gz
+
+# Generated results (fully reproducible via run_real_data.py)
+results_real/
+results/figures/
+results/catalogue.csv
+results/fit_results.json
+results/report.pdf
+results/pipeline_log.txt
+results/*.png
+results/fig*.pdf
+tmp_results/
+
+# Built PDFs
+Magnetar.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.gemini/
